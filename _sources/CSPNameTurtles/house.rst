@@ -59,12 +59,17 @@ Let's imagine going on to make another partial square along the slope, to create
 .. image:: Figures/turtle-house.png
 
 .. parsonsprob:: 5_5_1_Turtle_House
+   :adaptive:
 
    Align the program pieces below to make the house and chimney figure above.  Draw the square first for the main part of the house, next draw the roof, and finally draw the chimney.
    -----
    from turtle import * 
    space = Screen()
    bob = Turtle() 
+   =====
+   from turtle import * 
+   space = screen()
+   bob = turtle() #paired
    =====
    # Make a square
    bob.forward(100) 
@@ -77,6 +82,9 @@ Let's imagine going on to make another partial square along the slope, to create
    =====
    # Position for roof
    bob.right(90)
+   =====
+   # Position for roof
+   bob.left(90) #paired
    =====
    # Make a roof
    bob.forward(100)   
@@ -99,6 +107,63 @@ Let's imagine going on to make another partial square along the slope, to create
    bob.right(90)
    bob.forward(30)
    bob.right(90)
+   
+Let's make another square inside the house, to create a "window."
+
+.. image:: Figures/turtle-house2.png
+   :width: 120 px
+   :align: center
+   
+.. parsonsprob:: 5_5_2_Turtle_House2
+
+   Align the program pieces below to make the house and window figure above.  Draw the square first for the main part of the house, next draw the roof, and finally draw the window.
+   -----
+   from turtle import * 
+   space = Screen()
+   bob = Turtle() 
+   =====
+   from turtle import * 
+   space = screen()
+   bob = turtle() #paired
+   =====
+   # Make a square
+   bob.forward(100) 
+   bob.right(90) 
+   bob.forward(100) 
+   bob.right(90) 
+   bob.forward(100) 
+   bob.right(90) 
+   bob.forward(100) 
+   =====
+   # Position for roof
+   bob.right(90)
+   =====
+   # Position for roof
+   bob.left(90) #paired
+   =====
+   # Make a roof
+   bob.forward(100)   
+   bob.right(-120)   
+   bob.forward(100)   
+   bob.right(-120)   
+   bob.forward(100) 
+   bob.right(-120)  
+   =====
+   # Position for window
+   bob.penup()
+   bob.goto(50,-30)
+   bob.pendown()
+   bob.setheading(0) 
+   =====
+   # Draw window
+   bob.color("red")
+   bob.forward(30)
+   bob.right(90)
+   bob.forward(30)
+   bob.right(90)
+   bob.forward(30)
+   bob.right(90)
+   bob.forward(30)
 
 
 

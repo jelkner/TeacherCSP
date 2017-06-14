@@ -45,7 +45,7 @@ We have seen the example below once before.  It allows us to use the ``turtle`` 
     space = Screen()		# create a turtle space
     alex = Turtle()   		# create a turtle named alex
     alex.forward(150)		# move forward by 150 units
-    alex.left(90)   		# turn by 90 degrees
+    alex.left(90)   		# turn left 90 degrees
     alex.forward(75)		# move forward by 75 units 
     
 .. mchoice:: 5_1_1_Turtle_Dir_Q1
@@ -74,7 +74,7 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
 
     Figure 1: The amount of turn for specified degrees for left and right turns
     
-**Mixed up programs**
+**Mixed up programs**	    
 
 .. parsonsprob:: 5_1_1_Turtle_L
 
@@ -100,13 +100,13 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
 .. parsonsprob:: 5_1_2_Turtle_Check
    :adaptive:
 
-   The following program uses a turtle to draw a checkmark as shown to the left, <img src="../_static/TurtleCheckmark4.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the window to draw on, and create the turtle.  The turtle should turn to face southeast, draw a line that is 75 pixels long, then turn to face northeast, and draw a line that is 150 pixels long.  We have added a compass to the picture to indicate the directions north, south, west, and east.  Northeast is between north and east. Southeast is between south and east. <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.  </p>
+   The following program uses a turtle to draw a checkmark as shown to the left, <img src="../_static/checkMark.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  The turtle should turn to face southeast, draw a line that is 75 pixels long, then turn to face northeast, and draw a line that is 150 pixels long.  We have added a compass to the picture to indicate the directions north, south, west, and east.  Northeast is between north and east. Southeast is between south and east. <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.  </p>
    -----
    from turtle import *
    =====
-   space = turtle.Screen()
+   space = Screen()
    =====
-   maria = turtle.Turtle()
+   maria = Turtle()
    =====
    maria.right(45)
    =====

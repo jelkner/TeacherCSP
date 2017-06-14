@@ -10,7 +10,7 @@
 
 .. 	qnum::
 	:start: 1
-	:prefix: csp-10-5-
+	:prefix: csp-10-7-
 
 
 Chapter 10 - Summary
@@ -26,7 +26,7 @@ Chapter 10 included the following concepts from computing.
 	single: total turtle trip theorem
 	single: turtle geometry
 
-- **Loop Body** - The statement or statements that are repeated in a loop.  In Python indention is used to show the statements that are part of the body of a loop.
+- **Loop Body** - The statement or statements that are repeated in a loop.  In Python indentation is used to show the statements that are part of the body of a loop.
 - **Total Turtle Trip Theorem** - The total turtle trip theorem states that the turtle will draw a closed figure with n sides when the sum of the angles turned is a multiple of 360. 
 - **Turtle Geometry** - Turtle Geometry is a book by Hal Abelson and Andrea diSessa that explores math using turtles.   
 

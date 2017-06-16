@@ -102,22 +102,66 @@ We can *increase* the red in a similar way. Let's change STEP 5, so that we incr
 
 Try the program above on some of the other images by changing the name of the image file on line 5.   What effect does it always have? Is this what you expected when you increase the red?  What happens if you increase two colors at the same time?
 
+.. note ::
+
+   The problem below has blocks connected by purple edges.  Pick just one of the blocks to use in the solution.  One is the correct block and one is a *distractor* which is not needed in a correct solution.
+
 .. parsonsprob:: Image_Decrease_GB
 
-   Another way to get a similar effect to increasing the red, is to decrease the green and blue.  Figure out how to do that in the program above and then use that information to drag the code blocks below from the left to the right in the correct order with the correct indention. 
+   Another way to get a similar effect to increasing the red, is to decrease the green and blue by 25%.  Figure out how to do that in the program above and then use that information to drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
    -----
    from image import *
    =====
    img = Image("beach.jpg")
+   =====
+   img = image("beach.jpg") #paired
    =====
    pixels = img.getPixels()
    for p in pixels:
    =====
        g = p.getGreen()
        b = p.getBlue()
+   =====
+       g = p.getgreen()
+       b = p.getblue() #paired
    =====       
        p.setGreen(g * 0.75)
        p.setBlue(b * 0.75)
+   =====       
+       p.setGreen(g * 0.25)
+       p.setBlue(b * 0.25) #paired
+   =====
+       img.updatePixel(p)
+   =====
+   win = ImageWin(img.getWidth(),img.getHeight())
+   img.draw(win)
+   
+.. note ::
+
+   The problem below has a *Help Me* button, but it starts out disabled.  You must make at least 3 attempts to solve this problem before the button becomes enabled.  You can click on the *Help Me* button when it is enabled to make the problem easier.  
+   
+.. parsonsprob:: Image_Increase_Red_Parsons
+   :adaptive:
+
+   The program below should increase the red by 25%.  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
+   -----
+   from image import *
+   =====
+   from Image import * #paired
+   =====
+   img = Image("beach.jpg")
+   =====
+   pixels = img.getPixels()
+   for p in pixels:
+   =====
+   pixels = img.getPixels
+   for p in pixels: #paired
+   =====
+       r = p.getRed()
+   =====       
+       p.setRed(r * 1.25)
+   =====
+       p.setRed(r * 0.25) #paired
    =====
        img.updatePixel(p)
    =====

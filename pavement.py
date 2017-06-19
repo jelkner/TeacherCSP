@@ -26,12 +26,12 @@ options(
     sphinx = Bunch(docroot=".",),
 
     build = Bunch(
-        builddir="./build/TeacherCSP",
+        builddir="./build/TeacherCSP-EX2a",
         sourcedir="_sources",
-        outdir="./build/TeacherCSP",
+        outdir="./build/TeacherCSP-EX2a",
         confdir=".",
-        project_name = "TeacherCSP",
-        template_args={'course_id': 'TeacherCSP',
+        project_name = "TeacherCSP-EX2a",
+        template_args={'course_id': 'TeacherCSP-EX2a',
                        'login_required':'true',
                        'appname':master_app,
                        'loglevel': 10,
@@ -39,7 +39,7 @@ options(
                        'use_services': 'true',
                        'python3': 'true',
                        'dburl': 'postgresql://runestone@localhost/runestone',
-                       'basecourse': 'teachercsp'
+                       'basecourse': 'teachercsp-ex2a'
                         }
     )
 )

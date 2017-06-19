@@ -60,47 +60,6 @@ When you ran the code in the last section, did you get 55?  That's the sum of al
 |bigteachernote| Teacher Note: Names are Just Words
 ======================================================
 Once you change the program above in order to use ``*`` instead of ``+``, you will see that it is still using the name (*variable*) ``sum`` to represent the `product` of all the numbers in ``thingsToAdd``.  The program would be *better* if we used the right name for the variable: ``product`` instead of ``sum`` once we switched to multiplication (``*``) from addition (``+``).  However, the program still *works*.  In the end, the names for the variables are there for the benefit of the *humans*, not the computer.  The computer doesn't care if we name the program `xyzzy1776`.  It will *work* with a bad variable name.  It's just not as readable.  **You should write your programs so that people can understand them, not just computers.** 
-
-Using Better Variable Names
------------------------------
-
-Let's write that program again with a better variable name.  We will use ``product`` instead of ``sum`` for the variable name that holds the result of the calculation.  Step through the code below by clicking on the *Forward* button and note what value the variable ``number`` is set to each time through the loop.  Also note how the variable ``product`` changes during the loop.
-
-.. codelens:: Numbers_Product
-	
-    product = 1  # Start out with nothing
-    numbers = [1,2,3,4,5,6,7,8,9,10]
-    for number in numbers:
-    	product = product * number
-    print(product)
-    
-.. mchoice:: 7_3_2_Numbers_Product_Q1
-   :answer_a: 1
-   :answer_b: 2
-   :answer_c: 3
-   :answer_d: 4
-   :answer_e: 10
-   :correct: c
-   :feedback_a: That's the value the first time through the loop
-   :feedback_b: That's the value the second time through the loop
-   :feedback_c: That's the value the third time through the loop
-   :feedback_d: That's the value the fourth time through the loop
-   :feedback_e: That's the value the last time through the loop
-
-   What is the value of number the 3rd time through the loop?
-   
-.. mchoice:: 7_3_3_Numbers_Product_Q2
-   :answer_a: 6
-   :answer_b: 10
-   :answer_c: 24
-   :answer_d: 120
-   :correct: c
-   :feedback_a: That's the value after the 3rd time through the loop.
-   :feedback_b: That's the value if we were adding up the values rather than multiplying them.
-   :feedback_c: That's the value after the 4th time through the loop.
-   :feedback_d: That's the value after the 5th time through the loop.
-
-   What is the value of product after the 4th time through the loop?
    
 .. parsonsprob:: 7_3_4_Average
 

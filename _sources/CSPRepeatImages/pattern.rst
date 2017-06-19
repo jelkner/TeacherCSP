@@ -73,5 +73,61 @@ Here are our six steps:
 6. STEP 6: UPDATE THE IMAGE.  This will update the image at the original pixel location to the new color.  
 7. STEP 7: SHOW THE RESULT.  This will draw the changed image in a window.
 
+**Mixed Up Code Problems**
+
+.. note ::
+
+   The problem below has a *Help Me* button, but it starts out disabled.  You must make at least 3 attempts to solve this problem before the button becomes enabled.  You can click on the *Help Me* button when it is enabled to make the problem easier.  
+
+.. parsonsprob:: Image_Set_Red_Half_Blue
+   :adaptive:
+
+   The program below should set all the red values to half the blue values.  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
+   -----
+   from image import *
+   =====
+   import * #paired
+   =====
+   img = Image("beach.jpg")
+   =====
+   img = image("beach.jpg) #paired
+   =====
+   pixels = img.getPixels()
+   for p in pixels:
+   =====
+   pixels = Image.getPixels()
+   for p in pixels: #paired
+   =====
+       p.setRed(p.getBlue() * 0.5)
+   =====
+       img.updatePixel(p)
+   =====
+   win = ImageWin(img.getWidth(),img.getHeight())
+   img.draw(win)
+   
+.. parsonsprob:: Image_Set_Green_Half_Red
+
+   The program below should set all the green values to half the red values.  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
+   -----
+   from image import *
+   =====
+   img = Image("beach.jpg")
+   =====
+   pixels = img.getPixels()
+   for p in pixels:
+   =====
+       p.setGreen(p.getRed() * 0.5)
+   =====
+       p.setGreen(p.getRed() - 0.5) #paired
+   =====
+       img.updatePixel(p)
+   =====
+       Image.updatePixel(p) #paired
+   =====
+   win = ImageWin(img.getWidth(),img.getHeight())
+   img.draw(win)
+   =====
+   win = ImageWin(Img.getWidth(),img.getHeight())
+   img.draw(win) #paired
 
 

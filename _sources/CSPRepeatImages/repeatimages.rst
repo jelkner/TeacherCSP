@@ -104,6 +104,69 @@ You can actually run this code on any image on the web by specifying the image u
    <tr><td><img src="../_static/gal1.jpg" id="gal1.jpg"></td><td><img src="../_static/guy1.jpg" id="guy1.jpg"></td><td><img src="../_static/gal2.jpg" id="gal2.jpg"></td></tr>
    </table>
    
+** Mixed Up Code Practice**
+
+.. note ::
+
+   The problem below has blocks connected by purple edges.  Pick just one of the blocks to use in the solution.  One is the correct block and one is a *distractor* which is not needed in a correct solution.
+   
+.. parsonsprob:: Image_Set_Red_255
+
+   The program below should set all the red values to 255 (the maximum value).  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
+   -----
+   from image import *
+   =====
+   img = Image("arch.jpg")
+   =====
+   img = Image(arch.jpg) #paired
+   =====
+   pixels = img.getPixels()
+   for p in pixels:
+   =====
+   pixels = img.getPixels
+   for p in pixels: #paired
+   =====
+       p.setRed(255)
+   =====
+       img.updatePixel(p)
+   =====
+       img.updatepixel(p) #paired
+   =====
+   win = ImageWin(img.getWidth(),img.getHeight())
+   img.draw(win)
+   
+.. note ::
+
+   The problem below has a *Help Me* button, but it starts out disabled.  You must make at least 3 attempts to solve this problem before the button becomes enabled.  You can click on the *Help Me* button when it is enabled to make the problem easier.  
+
+.. parsonsprob:: Image_Set_Red_100
+   :adaptive:
+
+   The program below should set all the red values to 100.  Drag the needed code blocks below from the left to the right in the correct order with the correct indention. There may be extra blocks that are not needed in a correct solution.  Click on the *Check Me* button to check your solution.
+   -----
+   from image import *
+   =====
+   from Image import * #paired
+   =====
+   img = Image("arch.jpg")
+   =====
+   img = image("arch.jpg") #paired
+   =====
+   pixels = img.getPixels()
+   for p in pixels:
+   =====
+   pixels = img.getPixels
+   for p in pixels: #paired
+   =====
+       p.setRed(100)
+   =====
+       p.set(100) #paired
+   =====
+       img.updatePixel(p)
+   =====
+   win = ImageWin(img.getWidth(),img.getHeight())
+   img.draw(win)
+
 
 
 

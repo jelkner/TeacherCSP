@@ -106,7 +106,6 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    jamal.forward(100)
    =====
    jamal.right(180)
-   =====
    jamal.forward(50)
    =====
    jamal.left(65)

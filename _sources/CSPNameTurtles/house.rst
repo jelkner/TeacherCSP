@@ -53,62 +53,8 @@ Let's combine the square and triangle code to create a drawing of a simple house
   bob.right(-120)           # turn LEFT by 120 degrees
   bob.forward(100)          # tell bob to move forward by 100 units
   bob.right(-120)           # turn LEFT by 120 degrees
-
-Let's imagine going on to make another partial square along the slope, to create a "chimney."
-
-.. image:: Figures/turtle-house.png
-
-.. parsonsprob:: 5_5_1_Turtle_House
-   :adaptive:
-
-   Align the program pieces below to make the house and chimney figure above.  Draw the square first for the main part of the house, next draw the roof, and finally draw the chimney.
-   -----
-   from turtle import * 
-   space = Screen()
-   bob = Turtle() 
-   =====
-   from turtle import * 
-   space = screen()
-   bob = turtle() #paired
-   =====
-   # Make a square
-   bob.forward(100) 
-   bob.right(90) 
-   bob.forward(100) 
-   bob.right(90) 
-   bob.forward(100) 
-   bob.right(90) 
-   bob.forward(100) 
-   =====
-   # Position for roof
-   bob.right(90)
-   =====
-   # Position for roof
-   bob.left(90) #paired
-   =====
-   # Make a roof
-   bob.forward(100)   
-   bob.right(-120)   
-   bob.forward(100)   
-   bob.right(-120)   
-   bob.forward(100) 
-   bob.right(-120)  
-   =====
-   # Position for chimney
-   bob.right(-60)
-   bob.forward(40)
-   bob.setheading(90) 
-   =====
-   # Draw chimney
-   bob.color("red")
-   bob.forward(30)
-   bob.right(90)
-   bob.forward(30)
-   bob.right(90)
-   bob.forward(30)
-   bob.right(90)
-   
-Let's make another square inside the house, to create a "window."
+  
+Let's make a square inside the house, to create a "window."
 
 .. image:: Figures/turtle-house2.png
    :width: 120 px
@@ -165,5 +111,60 @@ Let's make another square inside the house, to create a "window."
    bob.right(90)
    bob.forward(30)
 
+
+Let's imagine going on to make another partial square along the slope, to create a "chimney."
+
+.. image:: Figures/turtle-house.png
+
+.. parsonsprob:: 5_5_1_Turtle_House
+   :adaptive:
+
+   Align the program pieces below to make the house and chimney figure above.  Draw the square first for the main part of the house, next draw the roof, and finally draw the chimney.
+   -----
+   from turtle import * 
+   space = Screen()
+   bob = Turtle() 
+   =====
+   from turtle import * 
+   space = screen()
+   bob = turtle() #paired
+   =====
+   # Make a square
+   bob.forward(100) 
+   bob.right(90) 
+   bob.forward(100) 
+   bob.right(90) 
+   bob.forward(100) 
+   bob.right(90) 
+   bob.forward(100) 
+   =====
+   # Position for roof
+   bob.right(90)
+   =====
+   # Position for roof
+   bob.left(90) #paired
+   =====
+   # Make a roof
+   bob.forward(100)   
+   bob.right(-120)   
+   bob.forward(100)   
+   bob.right(-120)   
+   bob.forward(100) 
+   bob.right(-120)  
+   =====
+   # Position for chimney
+   bob.right(-60)
+   bob.forward(40)
+   bob.setheading(90) 
+   =====
+   # Draw chimney
+   bob.color("red")
+   bob.forward(30)
+   bob.right(90)
+   bob.forward(30)
+   bob.right(90)
+   bob.forward(30)
+   bob.right(90)
+   
 
 

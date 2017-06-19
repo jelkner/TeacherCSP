@@ -20,18 +20,18 @@ if master_url is None:
         master_url = 'http://127.0.0.1:8000'
 
 master_app = 'runestone'
-serving_dir = "./build/TeacherCSP"
+serving_dir = "./build/TeacherCSP-Ex2b"
 
 options(
     sphinx = Bunch(docroot=".",),
 
     build = Bunch(
-        builddir="./build/TeacherCSP-EX2a",
+        builddir="./build/TeacherCSP-EX2b",
         sourcedir="_sources",
-        outdir="./build/TeacherCSP-EX2a",
+        outdir="./build/TeacherCSP-EX2b",
         confdir=".",
-        project_name = "TeacherCSP-EX2a",
-        template_args={'course_id': 'TeacherCSP-EX2a',
+        project_name = "TeacherCSP-EX2b",
+        template_args={'course_id': 'TeacherCSP-EX2b',
                        'login_required':'true',
                        'appname':master_app,
                        'loglevel': 10,
@@ -39,7 +39,7 @@ options(
                        'use_services': 'true',
                        'python3': 'true',
                        'dburl': 'postgresql://runestone@localhost/runestone',
-                       'basecourse': 'teachercsp-ex2a'
+                       'basecourse': 'teachercsp-ex2b'
                         }
     )
 )

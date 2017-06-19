@@ -74,7 +74,6 @@ By setting the pen color differently, we can distinguish the part that draws the
 You can use the coloring in the picture below to help you figure out the correct order of the lines below.
 
 .. parsonsprob:: 10_3_1_Turtle_Spiro
-   :adaptive:
 
    There is a way of arranging the statements below such that this image is created. <img src="../_static/BlueTrianglesRedCircle.png" width="200" align="left" hspace="10" vspace="5" /> Move the pieces of the program from the left into the space on the right.  Indent lines as needed.
    -----
@@ -102,6 +101,7 @@ You can use the coloring in the picture below to help you figure out the correct
 You can use the coloring in the picture below to help you figure out the correct order of the lines below.
 
 .. parsonsprob:: 10_3_2_Turtle_Spiro_Blue_Red
+   :adaptive:
 
    There is a way of arranging the statements below such that this image is created. <img src="../_static/RedTrianglesBlueCircle.png" width="200" align="left" hspace="10" vspace="5" /> Move the pieces of the program from the left into the space on the right.  Indent lines as needed.
    -----

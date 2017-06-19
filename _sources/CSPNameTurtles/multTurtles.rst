@@ -136,8 +136,7 @@ Every turtle object has its own attributes like its current position and color. 
    jamal = turtle() #paired
    =====
    jamal.color("blue") 
-   jamal.pensize(10)   
-   =====            	               
+   jamal.pensize(10)             	               
    jamal.left(90)
    jamal.forward(150)
    =====

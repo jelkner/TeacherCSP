@@ -83,6 +83,7 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
    from turtle import *
    =====
    space = Screen()
+   =====
    ella = Turtle()
    =====
    ella.right(90)

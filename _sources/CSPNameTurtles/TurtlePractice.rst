@@ -48,7 +48,6 @@ Practice with Turtles
    alex.turn(120) #paired
    =====
    alex.forward(100)
-   =====
    alex.left(120)
    =====
    alex.forward(50)

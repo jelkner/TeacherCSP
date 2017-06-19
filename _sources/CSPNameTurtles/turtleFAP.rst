@@ -98,7 +98,36 @@ The program below uses the ``goto(x,y)`` to move to the top left corner before d
     
 **Mixed up programs**
 
+.. parsonsprob:: 5_3_1_DrawF
+
+   The following program uses a turtle to draw a capital F as shown in the picture to the left of this text, <img src="../_static/DrawFwGT.png" width="200" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  First the turtle should turn left 90 degrees and draw a line that is 100 pixels long.  Second, turn right 90 degrees and go forward 50 pixels. Third, pick up the pen and go to (0,60) and put the pen down. Then go forward 50 pixels. <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order.  There may be extra blocks that are not needed in a correct solution.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
+   -----
+   from turtle import *
+   space = Screen()   
+   anu = Turtle() 
+   =====      
+   anu.left(90)
+   anu.forward(100)
+   =====
+   anu.right(90)
+   anu.forward(50)
+   =====
+   anu.penup()
+   =====
+   anu.penUp() #paired
+   =====
+   anu.goto(0,60)
+   =====
+   anu.goTo(0,60) #paired
+   =====
+   anu.pendown()
+   =====
+   anu.penDown() #paired
+   =====
+   anu.forward(50)
+
 .. parsonsprob:: 5_3_2_DrawA
+   :adaptive:
 
    The following program uses a turtle to draw a capital A as shown in the picture to the left of this text, <img src="../_static/DrawABig.png" width="200" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  First the turtle should turn 60 degrees left and draw a line that is 100 pixels long.  Second it should turn 120 degrees right and draw a line that is 100 pixels long.  Third it should pick up the pen and move the turtle to (30,50) and put the pen back down.  Then it should turn left 60 degrees and go forward 40 pixels.  <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order. There may be additional blocks that are not needed in a correct solution. Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----
@@ -129,34 +158,7 @@ The program below uses the ``goto(x,y)`` to move to the top left corner before d
    ella.Left(60)
    ella.forward(40) #paired
 
-.. parsonsprob:: 5_3_1_DrawF
-   :adaptive:
 
-   The following program uses a turtle to draw a capital F as shown in the picture to the left of this text, <img src="../_static/DrawFwGT.png" width="200" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  First the turtle should turn left 90 degrees and draw a line that is 100 pixels long.  Second, turn right 90 degrees and go forward 50 pixels. Third, pick up the pen and go to (0,60) and put the pen down. Then go forward 50 pixels. <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order.  There may be extra blocks that are not needed in a correct solution.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
-   -----
-   from turtle import *
-   space = Screen()   
-   anu = Turtle() 
-   =====      
-   anu.left(90)
-   anu.forward(100)
-   =====
-   anu.right(90)
-   anu.forward(50)
-   =====
-   anu.penup()
-   =====
-   anu.penUp() #paired
-   =====
-   anu.goto(0,60)
-   =====
-   anu.goTo(0,60) #paired
-   =====
-   anu.pendown()
-   =====
-   anu.penDown() #paired
-   =====
-   anu.forward(50)
     
 You can change the color and pensize that you draw with as well.
 

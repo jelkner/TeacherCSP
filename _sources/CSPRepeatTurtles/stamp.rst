@@ -71,6 +71,7 @@ not sure, write a new line of code after the ``for`` loop to change tess' color,
    from turtle import *
    space = Screen()
    jose = Turtle()
+   =====
    jose.shape("turtle")
    jose.penup()
    =====                   

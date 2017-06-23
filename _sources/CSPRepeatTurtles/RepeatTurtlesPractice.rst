@@ -90,7 +90,7 @@ This section provides more practice using the **stamp** procedure.
    =====
        nick.right(90)
    =====
-       nick.left(60) #paired
+       nick.left(90) #paired
 
 Use the area below to try to draw a pattern using a ``for`` loop and the ``stamp`` procedure.
 

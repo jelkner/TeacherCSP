@@ -59,6 +59,7 @@ As we have seen before turtles can draw letters like a capital C as shown below.
    alex.turn(120) #paired
    =====
    alex.forward(100)
+   =====
    alex.left(120)
    =====
    alex.forward(50)
@@ -90,6 +91,7 @@ As we have seen before turtles can draw letters like a capital C as shown below.
    ella.forward(116) #paired
    =====
    ella.left(150)
+   =====
    ella.forward(100)
 
    

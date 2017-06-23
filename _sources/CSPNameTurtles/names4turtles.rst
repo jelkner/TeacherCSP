@@ -111,8 +111,6 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
    -----
    from turtle import *
    =====
-   from Turtle import * #paired
-   =====
    space = Screen()
    =====
    maria = Turtle()

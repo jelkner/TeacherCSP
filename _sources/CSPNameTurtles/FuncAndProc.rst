@@ -81,8 +81,6 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    jamal.Left(90) #paired
    =====                
    jamal.forward(150)
-   =====                
-   jamal.Forward(150) #paired
    =====
    jamal.left(90)
    jamal.forward(50)

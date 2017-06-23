@@ -118,8 +118,6 @@ The program below uses the ``goto(x,y)`` to move to the top left corner before d
    =====
    anu.penup()
    =====
-   anu.penUp() #paired
-   =====
    anu.goto(0,60)
    =====
    anu.goTo(0,60) #paired

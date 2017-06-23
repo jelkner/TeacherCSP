@@ -68,7 +68,7 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
 
 .. parsonsprob:: 5_2_1_Turtle-T
 
-   The following program uses a turtle to draw a capital T as shown to the left, <img src="../_static/TurtleT1.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up, create the turtle.  After that the turtle should turn to face north, draw a line that is 150 pixels long, turn to face west, and draw a line that is 50 pixels long.  Next, the turtle should turn 180 degrees and draw a line that is 100 pixels long.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>  
+   The following program uses a turtle to draw a capital T as shown to the left, <img src="../_static/TurtleT1.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  After that the turtle should draw the lines in the numbered order as shown in the picture on the left.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>  
    -----
    from turtle import *
    =====
@@ -76,27 +76,39 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    jamal = Turtle()
    ===== 
    jamal.left(90)
+   ===== 
+   jamal.Left(90) #paired
    =====                
    jamal.forward(150)
+   =====                
+   jamal.Forward(150) #paired
    =====
    jamal.left(90)
    jamal.forward(50)
    =====
    jamal.right(180)
    =====
+   jamal.turn(180) #paired
+   =====
    jamal.forward(100)
-
+   
+**Mixed up programs**
+   
 .. parsonsprob:: 5_2_2_Turtle-A
    :adaptive:
 
-   The following program uses a turtle to draw a capital A as shown to the left, <img src="../_static/turtleA2.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up, create the turtle.  After that the turtle should turn left 70 degrees, draw a line that is 100 pixels long.  Next it should turn right 135 degrees and draw another line that is 100 pixels long.  Then the turtle should reverse direction and draw a line 50 pixels long.  And finally it should turn left 65 degrees and draw the line between the other two lines.  .<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>  
+   The following program uses a turtle to draw a capital A as shown to the left, <img src="../_static/turtleA2.png" width="150" align="left" hspace="10" vspace="5"/> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  After that the turtle should draw the lines in the numbered order as shown in the picture on the left. <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order.</p>  
    -----
    from turtle import *
    space = Screen()  
    =====  	
    jamal = Turtle()
+   =====  	
+   jamal = Turtle) #paired
    ===== 
    jamal.left(70)
+   ===== 
+   jamal.left(90) #paired
    =====                
    jamal.forward(100)
    jamal.right(135)
@@ -106,14 +118,10 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    jamal.right(180)
    jamal.forward(50)
    =====
+   jamal.right(180)
+   jamal.Forward(50) #paired
+   =====
    jamal.left(65)
    jamal.forward(45)
-
-
-
-
-
-
-   
 
 

@@ -59,6 +59,7 @@ Let's imagine going on to make another partial square along the slope, to create
 .. image:: Figures/turtle-house.png
 
 .. parsonsprob:: 5_5_1_Turtle_House
+   :adaptive:
 
    Align the program pieces below to make the house and chimney figure above.  Draw the square first for the main part of the house, next draw the roof, and finally draw the chimney.
    -----
@@ -107,14 +108,13 @@ Let's imagine going on to make another partial square along the slope, to create
    bob.forward(30)
    bob.right(90)
    
-Let's make a square inside the house, to create a "window."
+Let's make another square inside the house, to create a "window."
 
 .. image:: Figures/turtle-house2.png
    :width: 120 px
    :align: center
    
 .. parsonsprob:: 5_5_2_Turtle_House2
-   :adaptive:
 
    Align the program pieces below to make the house and window figure above.  Draw the square first for the main part of the house, next draw the roof, and finally draw the window.
    -----
@@ -165,6 +165,5 @@ Let's make a square inside the house, to create a "window."
    bob.right(90)
    bob.forward(30)
 
-   
 
 

@@ -60,11 +60,16 @@ We already had a turtle draw a square.  We repeated the lines in order to make t
    -----
    from turtle import *      
    =====   
+   from Turtle import * #paired      
+   ===== 
    space = Screen()
    carlos = Turtle()
    =====
    # repeat 2 times
    for i in [1,2]:  
+   =====
+   # repeat 2 times
+   for i in [1,2]  #paired
    =====   
        carlos.forward(175)
    =====
@@ -72,6 +77,9 @@ We already had a turtle draw a square.  We repeated the lines in order to make t
    =====  
        carlos.forward(150)
        carlos.right(90)
+   =====  
+       carlos.forward(150)
+       carlos.turn(90) #paired
    
 Since it doesn't matter what's in the list, just as long as there are *four* items, there is a special way of writing that loop.  We use a ``range`` function. 
 

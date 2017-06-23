@@ -75,7 +75,7 @@ You can use the coloring in the picture below to help you figure out the correct
 
 .. parsonsprob:: 10_3_1_Turtle_Spiro
 
-   There is a way of arranging the statements below such that this image is created. <img src="../_static/BlueTrianglesRedCircle.png" width="200" align="left" hspace="10" vspace="5" /> Move the pieces of the program from the left into the space on the right.  Indent lines as needed.
+   There is a way of arranging the statements below such that this image is created. <img src="../_static/BlueTrianglesRedCircle.png" width="200" align="left" hspace="10" vspace="5" /> The turtle will draw many triangles.  Move the needed pieces of the program from the left into the space on the right.  Indent lines as needed.
    -----
    from turtle import *
    from sys import *    
@@ -87,11 +87,15 @@ You can use the coloring in the picture below to help you figure out the correct
    =====
    for repeats in range(20):
    =====
+   for repeats in range(20) #paired
+   =====
        mateo.color("red")
        mateo.forward(10)
        mateo.left(18)    
    =====
        for sides in range(3):
+       =====
+       for sides in range(4): #paired
    =====
            mateo.color("blue")
            mateo.forward(50) 
@@ -103,7 +107,7 @@ You can use the coloring in the picture below to help you figure out the correct
 .. parsonsprob:: 10_3_2_Turtle_Spiro_Blue_Red
    :adaptive:
 
-   There is a way of arranging the statements below such that this image is created. <img src="../_static/RedTrianglesBlueCircle.png" width="200" align="left" hspace="10" vspace="5" /> Move the pieces of the program from the left into the space on the right.  Indent lines as needed.
+   There is a way of arranging the statements below such that this image is created. <img src="../_static/RedTrianglesBlueCircle.png" width="200" align="left" hspace="10" vspace="5" /> The turtle will draw many triangles. Move the pieces of the program from the left into the space on the right.  Indent lines as needed.
    -----
    from turtle import *
    from sys import *    
@@ -115,6 +119,8 @@ You can use the coloring in the picture below to help you figure out the correct
    =====
    for repeats in range(20):
    =====
+   for repeats in range(20) #paired
+   =====
        mateo.color("blue")
        mateo.forward(10)
        mateo.left(18)
@@ -122,8 +128,54 @@ You can use the coloring in the picture below to help you figure out the correct
    =====
        for sides in range(3):
    =====
+       for sides in range(3) #paired
+   =====
            mateo.color("red")
            mateo.forward(50) 
            mateo.right(120)
+           
+The following example has 4 errors.  Can you fix the errors so that the code compiles and runs?
+    
+.. activecode:: Turtle_Nested_Error1
+	
+    from turtle import *    # use the turtle library
+    from sys import *    
+    setExecutionLimit(50000)  
+    
+    wn = Screen
+    mateo = Turtle()
+    mateo.setheading(90)
+
+    for repeats in range(20)
+        mateo.color("red")
+        mateo.forward(10)
+        mateo.left(18)    
+
+        for sides in range(3):
+            mateo.Color("blue")
+            mateo.forward(50) 
+            mateo.Right(120)
+           
+The following example has 4 errors.  Can you fix the errors so that the code compiles and runs?
+    
+.. activecode:: Turtle_Nested_Error1
+	
+    from turtle import *    # use the turtle library
+    from sys import *    
+    setExecutionLimit(50000)  
+    
+    wn = screen()
+    mateo = Turtle
+    mateo.setheading(90)
+
+    for repeats in range(20):
+        mateo.color("red")
+        mateo.forward(10)
+        mateo.left(18)    
+
+        for sides in range(3)
+            mateo.color("blue")
+            mateo.Forward(50) 
+            mateo.right(120)
 
 

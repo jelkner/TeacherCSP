@@ -55,13 +55,19 @@ not sure, write a new line of code after the ``for`` loop to change tess' color,
    =====
    nikea.shape("turtle")
    =====
+   nikea.shape(turtle) #paired
+   =====
    nikea.penup()
    =====                   
    for size in range(3):  
+   =====                   
+   for size in range(3)  #paired
    =====    
        nikea.forward(50)
    =====
-       nikea.stamp()  
+       nikea.stamp() 
+   =====
+       nikea.stamp #paired 
 
 .. parsonsprob:: 10_4_2_turtle-circle
    :adaptive:
@@ -74,16 +80,25 @@ not sure, write a new line of code after the ``for`` loop to change tess' color,
    =====
    jose.shape("turtle")
    jose.penup()
+   =====
+   jose.shape("turtle")
+   jose.penup #paired
    =====                   
    for size in range(10):  
+   =====                   
+   for size in range(10) #paired
    =====    
        jose.forward(50)
    =====
-       jose.stamp()    
+       jose.stamp() 
+   =====
+       jose.Stamp() #paired   
    =====      
        jose.forward(-50)
    =====
-       jose.right(36)             
+       jose.right(36)  
+   =====
+       jose.right(20) #paired           
 
 
  

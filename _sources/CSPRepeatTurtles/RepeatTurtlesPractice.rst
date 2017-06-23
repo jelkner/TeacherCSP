@@ -34,6 +34,9 @@ This section provides more practice using the **stamp** procedure.
    nick.goto(-150,-150)
    nick.left(45)
    =====
+   nick.goto(-150,-150)
+   nick.left(90) #paired
+   =====
    nick.color("blue")            
    for num in range(15):  
        nick.stamp()
@@ -41,6 +44,9 @@ This section provides more practice using the **stamp** procedure.
    =====
    nick.goto(150,-150)
    nick.left(90)
+   =====
+   nick.goto(150,-150)
+   nick.right(45) #paired
    =====
    nick.color("green")
    for num in range(14):  
@@ -63,6 +69,9 @@ This section provides more practice using the **stamp** procedure.
    nick.goto(-150,-150)
    nick.left(90)
    =====
+   nick.goto(-150,-150)
+   nick.right(90) #paired
+   =====
    nick.color("blue")            
    for count in range(4):
        for num in range(5):
@@ -80,6 +89,8 @@ This section provides more practice using the **stamp** procedure.
            nick.forward(30)
    =====
        nick.right(90)
+   =====
+       nick.left(90) #paired
 
 Use the area below to try to draw a pattern using a ``for`` loop and the ``stamp`` procedure.
 

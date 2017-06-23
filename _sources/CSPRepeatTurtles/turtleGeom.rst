@@ -96,15 +96,22 @@ Change the ``??`` in line 7 below to the amount to turn each time to draw a 12 s
    from turtle import * 
    =====         
    space = Screen()
+   =====         
+   space = screen() #paired
    ===== 
    marie = Turtle()
    =====
    # repeat 3 times
    for i in range(3): 
+   =====
+   # repeat 3 times
+   for i in range(3) #paired
    =====   
        marie.forward(100)
    =====
        marie.left(120)
+   =====
+       marie.turn(120) #paired
 
 
 

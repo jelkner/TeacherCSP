@@ -57,19 +57,6 @@ When you ran the code in the last section, did you get 55?  That's the sum of al
 
    Now, change the program above to get the product instead of the sum (e.g., replace `+` with `*`, and replace the `0` as the initial value of `sum` to `1`).  What do you get now when you run the program?
 
-|bigteachernote| Teacher Note: Names are Just Words
-======================================================
-Once you change the program above in order to use ``*`` instead of ``+``, you will see that it is still using the name (*variable*) ``sum`` to represent the `product` of all the numbers in ``thingsToAdd``.  The program would be *better* if we used the right name for the variable: ``product`` instead of ``sum`` once we switched to multiplication (``*``) from addition (``+``).  However, the program still *works*.  In the end, the names for the variables are there for the benefit of the *humans*, not the computer.  The computer doesn't care if we name the program `xyzzy1776`.  It will *work* with a bad variable name.  It's just not as readable.  **You should write your programs so that people can understand them, not just computers.** 
-   
-.. parsonsprob:: 7_3_4_Average
-
-   The following program calculates the average of a list of numbers, but the code is mixed up.  First initialize the sum to 0.  Then create the list of numbers.  Loop through the list and each time add the current number to the sum.  Print the sum divided by the number of items in the list.  <b>Don't forget that you must indent the lines that are repeated in the loop</b>.
-   -----
-   sum = 0
-   numbers = [90, 80, 75, 90, 83]
-   for number in numbers:
-       sum = sum + number
-   print(sum / 5) 
 
 
 

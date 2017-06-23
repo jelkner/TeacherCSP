@@ -20,16 +20,27 @@
 
 Practice with Turtles
 ================================
-    
-.. note ::
 
-   In these next problems we will draw a letter without lifting the pen or pencil.  See the numbers and arrows on the letters for the order that the lines are drawn.
+As we have seen before turtles can draw letters like a capital C as shown below.  It draws each line without picking up the pen in between.  
+
+.. activecode:: Turtle_C2
+    :nocodelens:
+	
+    from turtle import *    # use the turtle library
+    space = Screen()        # create a turtle space
+    alex = Turtle()         # create a turtle named alex
+    alex.left(180)          # turn alex by 180 degrees
+    alex.forward(75)        # move forward by 75 units 
+    alex.left(90)           # turn left 90 degrees
+    alex.forward(100)       # more forward by 100 units
+    alex.left(90)           # turn left 90 degrees
+    alex.forward(75)        # move forward by 75 units 
     
 **Mixed up programs**
 
 .. parsonsprob:: 5_2_1_DrawZ
 
-   The following program uses a turtle to draw a capital Z as shown in the picture to the left of this text, <img src="../_static/DrawZ.png" width="200" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  First the turtle should draw a line that is 50 pixels long and then turn right 120 degrees.  Second the turtle should go forward 100 pixels.  Third the turtle should turn left 120 degrees and go forward 50 pixels.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order.  There may be extra blocks that are not needed in a correct solution.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
+   The following program uses a turtle to draw a capital Z as shown in the picture to the left of this text, <img src="../_static/DrawZ.png" width="200" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  Then it should draw the lines for the Z in the order shown by the numbers on the picture.  <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order.  There may be extra blocks that are not needed in a correct solution.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----
    from turtle import *  
    =====
@@ -56,13 +67,11 @@ Practice with Turtles
 .. parsonsprob:: 5_2_1_DrawN
    :adaptive:
 
-   The following program uses a turtle to draw a capital N as shown in the picture to the left of this text, <img src="../_static/DrawN4.png" width="200" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  Remember that the turtle starts off facing east when it is created.  First the turtle should turn left 90 and draw a line that is 100 pixels long.  Second it should turn 150 degrees to the right and draw a line that is 116 pixels long. Third, it should turn left 150 degrees and draw a line 100 pixels long.  <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order. There are some extra blocks that are not needed in a correct solution.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
+   The following program uses a turtle to draw a capital N as shown in the picture to the left of this text, <img src="../_static/DrawN4.png" width="200" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  Remember that the turtle starts off facing east when it is created.  Then it should draw the lines for the N in the order shown by the numbers on the picture.  <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order. There are some extra blocks that are not needed in a correct solution.  Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----
    from turtle import *
    =====
    space = Screen()
-   =====
-   space = screen() #paired
    =====
    ella = Turtle()
    =====
@@ -71,8 +80,14 @@ Practice with Turtles
    ella.left(90)
    ella.forward(100)
    =====
+   ella.right(90)
+   ella.forward(100) #paired
+   =====
    ella.right(150)
    ella.forward(116)
+   =====
+   ella.left(150)
+   ella.forward(116) #paired
    =====
    ella.left(150)
    ella.forward(100)

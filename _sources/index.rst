@@ -106,9 +106,6 @@ Chapter 5: Names for Turtles
    CSPNameTurtles/FuncAndProc.rst
    CSPNameTurtles/TurtlePractice.rst
    CSPNameTurtles/turtleFAP.rst
-   CSPNameTurtles/multTurtles.rst
-   CSPNameTurtles/house.rst
-   CSPNameTurtles/bodySyntonic.rst
    
    CSPRepeatNumbers/repeatSteps.rst
    CSPRepeatNumbers/repeatNums.rst

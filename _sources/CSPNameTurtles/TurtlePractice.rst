@@ -60,6 +60,7 @@ As we have seen before turtles can draw letters like a capital C as shown below.
    alex.turn(120) #paired
    =====
    alex.forward(100)
+   =====
    alex.left(120)
    =====
    alex.forward(50)
@@ -75,6 +76,8 @@ As we have seen before turtles can draw letters like a capital C as shown below.
    =====
    ella = Turtle()
    =====
+   ella = Turtle #paired
+   =====
    ella.left(90)
    ella.forward(100)
    =====
@@ -88,10 +91,8 @@ As we have seen before turtles can draw letters like a capital C as shown below.
    ella.forward(116) #paired
    =====
    ella.left(150)
-   ella.forward(100)
    =====
-   ella.left(150)
-   ella.forward #paired
+   ella.forward(100)
 
    
 The following example has 4 errors.  Can you fix the errors so that the code runs correctly to print a capital L?

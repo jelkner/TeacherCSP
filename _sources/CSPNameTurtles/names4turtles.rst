@@ -102,7 +102,7 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
    
 .. note::
 
-   The problem below has a *Help Me* button, but it starts out disabled.  You must make at least 3 attempts to solve this problem before the button becomes enabled.  You can click on the *Help Me* button when it is enabled to make the problem easier.  
+   The following problem has a *Help Me* button.  You can click on the *Help Me* button after you have made at least 3 full and distinct attempts to solve the problem to make the problem easier.  
    
 .. parsonsprob:: 5_1_2_Turtle_Check
    :adaptive:

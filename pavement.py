@@ -20,7 +20,7 @@ if master_url is None:
         master_url = 'http://127.0.0.1:8000'
 
 master_app = 'runestone'
-serving_dir = "./build/TeacherCSP-Ex2b"
+serving_dir = "./build/TeacherCSP-EX2b"
 
 options(
     sphinx = Bunch(docroot=".",),

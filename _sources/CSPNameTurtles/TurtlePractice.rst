@@ -98,6 +98,7 @@ As we have seen before turtles can draw letters like a capital C as shown below.
 The following example has 4 errors.  Can you fix the errors so that the code runs correctly to print a capital L?
     
 .. activecode:: Turtle_Error1
+    :nocodelens:
 	
     from turtle import *    # use the turtle library
     space = screen()        # create a turtle space
@@ -110,6 +111,7 @@ The following example has 4 errors.  Can you fix the errors so that the code run
 The following example has 4 errors.  Can you fix the errors so that the code runs correctly to print a capital C?
     
 .. activecode:: Turtle_Error2
+    :nocodelens:
 	
     from turtle Import *    # use the turtle library
     space = Screen()        # create a turtle space

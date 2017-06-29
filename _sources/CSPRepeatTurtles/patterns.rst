@@ -137,6 +137,7 @@ You can use the coloring in the picture below to help you figure out the correct
 The following example has 4 errors.  Can you fix the errors so that the code compiles and runs?
     
 .. activecode:: Turtle_Nested_Error1
+    :nocodelens:
 	
     from turtle import *    # use the turtle library
     from sys import *    
@@ -159,6 +160,7 @@ The following example has 4 errors.  Can you fix the errors so that the code com
 The following example has 4 errors.  Can you fix the errors so that the code compiles and runs?
     
 .. activecode:: Turtle_Nested_Error1
+    :nocodelens:
 	
     from turtle import *    # use the turtle library
     from sys import *    

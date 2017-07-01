@@ -316,25 +316,31 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
                a = i + b;
                b = t - i;
               
-    .. mchoice:: epost_13_13
-       :answer_a: Number: 10
-       :answer_b: Number: number
-       :answer_c: Number: 0
-       :answer_d: Number: 11
-       :correct: a
-       :feedback_a: Since this while loop continues while number is less than or equal to 10 the last time in the loop it will print Number: 10.
-       :feedback_b: This would be true if it was print ("Number: ", "number").  But since there are no quotes around number it will print the value of number.
-       :feedback_c: While number is set to 0 to start it increments each time inside the loop.
-       :feedback_d: This would be true if the print statement was after number was incremented by 1, but it is before.
+    .. mchoice:: pre_13
+       :answer_a: A block letter Z
+       :answer_b: A rectangle
+       :answer_c: A triangle
+       :answer_d: A block letter C
+       :correct: d
+       :feedback_a: The angles would have to be more than 90 for this.
+       :feedback_b: There would need to be 4 sides for a rectangle (4 forward).
+       :feedback_c: The angles would need to be different for a triangle.
+       :feedback_d: It draws a block letter C to the left.
 
-       What is the last thing printed when the following code is run? 
+       What does the following code draw? 
        
        ::
 
           number = 0 
-          while number <= 10: 
-              print ("Number: ", number) 
-              number = number + 1
+          from turtle import *    # use the turtle library
+          space = Screen()        # create a turtle space
+          alex = Turtle()         # create a turtle named alex
+          alex.left(180)          # turn alex by 180 degrees
+          alex.forward(75)        # move forward by 75 units
+          alex.left(90)           # turn left 90 degrees
+          alex.forward(100)       # more forward by 100 units
+          alex.left(90)           # turn left 90 degrees
+          alex.forward(75)        # move forward by 75 units
               
     .. mchoice:: epost_14_14
        :answer_a: 1

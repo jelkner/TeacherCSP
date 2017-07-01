@@ -291,6 +291,101 @@ You will not be able to change your answers after you hit the "Finish Exam" butt
           for number in range(1,len(numList),2):
               sum = sum + numList[number]
           print(sum)
+          
+    .. mchoice:: epost_12_12
+       :answer_a: a = 11 and b = 2
+       :answer_b: a = 12 and b = 1
+       :answer_c: a = 3 and b = 11
+       :answer_d: a = 8 and b = 5
+       :answer_e: a = 5 and b = 8
+       :correct: e
+       :feedback_a: This would be true if it was range(1,3).
+       :feedback_b: This would be true if it was range(1,5).  Remember that range doesn't include the second value.
+       :feedback_c: Not quite.  Check your tracing.
+       :feedback_d: Not quite.  Check your tracing.  
+       :feedback_e: Good job tracing this! 
+
+       What do ``a`` and ``b`` equal after the following code executes?
+       ::
+
+           a = 10
+           b = 3
+           t = 0
+           for i in range(1,4):
+               t = a;
+               a = i + b;
+               b = t - i;
+              
+    .. mchoice:: epost_13_13
+       :answer_a: A block letter Z
+       :answer_b: A rectangle
+       :answer_c: A triangle
+       :answer_d: A block letter C
+       :correct: d
+       :feedback_a: The angles would have to be more than 90 for this.
+       :feedback_b: There would need to be 4 sides for a rectangle (4 forward).
+       :feedback_c: The angles would need to be different for a triangle.
+       :feedback_d: It draws a block letter C to the left.
+
+       What does the following code draw? 
+       
+       ::
+
+          number = 0 
+          from turtle import *    # use the turtle library
+          space = Screen()        # create a turtle space
+          alex = Turtle()         # create a turtle named alex
+          alex.left(180)          # turn alex by 180 degrees
+          alex.forward(75)        # move forward by 75 units
+          alex.left(90)           # turn left 90 degrees
+          alex.forward(100)       # more forward by 100 units
+          alex.left(90)           # turn left 90 degrees
+          alex.forward(75)        # move forward by 75 units
+              
+    .. mchoice:: epost_14_14
+       :answer_a: 1
+       :answer_b: 2
+       :answer_c: 3
+       :answer_d: 4
+       :correct: c
+       :feedback_a: This would be true if the print was outside of the loop, but it is in the loop.
+       :feedback_b: This would be true if it was range(1,3)
+       :feedback_c: The range(1,4) returns a list with the values 1, 2, and 3.  So this will print hello 3 times.
+       :feedback_d: This would be true if it was range(1,5).  Remember that it includes the first value and ends before the second value.
+
+       When the following code is run, how many times is hello printed?
+       
+       ::
+       
+          helloArray = range(1,4) 
+          for x in helloArray: 
+              print ("hello")
+              
+    .. mchoice:: epost_15_15
+       :answer_a: 4
+       :answer_b: 0
+       :answer_c: 7
+       :answer_d: 16
+       :correct: d
+       :feedback_a: This would be true if it was sum = sum + 1
+       :feedback_b: This would be true if sum never changed, but each time through the loop number is added to the current sum.
+       :feedback_c: This would be true if it printed the number.
+       :feedback_d: This adds up the numbers in values and prints the sum.
+
+       What will be printed by the following code when it executes?
+   
+       ::
+       
+          sum = 0                                                  
+          values = [1,3,5,7]
+          for number in values:
+              sum = sum + number
+          print (sum)
+              
+             
+
+   
+
              
 
    

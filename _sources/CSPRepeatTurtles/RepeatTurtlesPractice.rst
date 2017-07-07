@@ -50,7 +50,7 @@ This section provides more practice using the **stamp** procedure.
    nick.left(90)
    =====
    nick.goto(150,-150)
-   nick.right(45) #paired
+   nick.left(45) #paired
    =====
    nick.color("green")
    for num in range(14):  

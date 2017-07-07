@@ -91,6 +91,8 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    jamal.turn(180) #paired
    =====
    jamal.forward(100)
+   =====
+   jamal.forward(100 #paired
    
 **Mixed up programs**
    
@@ -114,6 +116,8 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    jamal.right(135)
    =====
    jamal.forward(100)
+   =====
+   jamal.forward(100 #paired
    =====
    jamal.right(180)
    jamal.forward(50)

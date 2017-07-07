@@ -71,6 +71,8 @@ We already had a turtle draw a square.  We repeated the lines in order to make t
    for i in [1,2]  #paired
    =====   
        carlos.forward(175)
+   =====   
+       carlos.Forward(175) #paired
    =====
        carlos.right(90)
    =====  

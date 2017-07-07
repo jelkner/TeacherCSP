@@ -58,6 +58,8 @@ not sure, write a new line of code after the ``for`` loop to change tess' color,
    nikea.shape(turtle) #paired
    =====
    nikea.penup()
+   =====
+   nikea.penUp() #paired
    =====                   
    for size in range(3):  
    =====                   
@@ -95,6 +97,8 @@ not sure, write a new line of code after the ``for`` loop to change tess' color,
        jose.Stamp() #paired   
    =====      
        jose.forward(-50)
+   =====      
+       jose.forward(-25) #paired
    =====
        jose.right(36)  
    =====

@@ -99,6 +99,8 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
    ella.left(90)
    =====
    ella.forward(75)
+   =====
+   ella.go(75) #paired
    
 .. note::
 
@@ -122,6 +124,8 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
    maria.left(45) #paired
    =====
    maria.forward(75)
+   =====
+   maria.Forward(75) #paired
    =====
    maria.left(90)
    =====

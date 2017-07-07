@@ -27,8 +27,6 @@ Assign a Name to a Turtle
 - Ask turtle objects to perform actions.
 - Introduce the concept of a procedure, which does some action, but doesn't return a value.
 - Introduce some turtle procedures like ``color``, ``penup``, ``pendown``, and ``pensize``.
-- Demonstrate that you can create more than one object of a type.
-- Demonstrate that using the right object at the right time, in order, is critical to success.
 
 ..	index::
 	single: objects
@@ -99,6 +97,8 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
    ella.left(90)
    =====
    ella.forward(75)
+   =====
+   ella.go(75) #paired
    
 .. note::
 
@@ -122,6 +122,8 @@ When we ask a turtle to turn left, it will turn left based on the direction it i
    maria.left(45) #paired
    =====
    maria.forward(75)
+   =====
+   maria.Forward(75) #paired
    =====
    maria.left(90)
    =====

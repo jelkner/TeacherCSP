@@ -92,7 +92,11 @@ You can use the coloring in the picture below to help you figure out the correct
    =====
        mateo.color("red")
        mateo.forward(10)
-       mateo.left(18)    
+       mateo.left(18) 
+   =====
+       mateo.color("red")
+       mateo.forward(10)
+       mateo.left(12) #paired   
    =====
        for sides in range(3):
        =====
@@ -133,6 +137,10 @@ You can use the coloring in the picture below to help you figure out the correct
            mateo.color("red")
            mateo.forward(50) 
            mateo.right(120)
+   =====
+           mateo.color("red")
+           mateo.forward(50) 
+           mateo.right(60) #paired
            
 The following example has 4 errors.  Can you fix the errors so that the code compiles and runs?
     

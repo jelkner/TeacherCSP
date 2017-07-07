@@ -108,6 +108,8 @@ Change the ``??`` in line 7 below to the amount to turn each time to draw a 12 s
    for i in range(3) #paired
    =====   
        marie.forward(100)
+   =====   
+       marie.forward(100 #paired
    =====
        marie.left(120)
    =====

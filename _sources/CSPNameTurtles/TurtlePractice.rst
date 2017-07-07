@@ -47,6 +47,8 @@ As we have seen before turtles can draw letters like a capital C as shown below.
    from turtle Import * #paired 
    ===== 
    space = Screen()  
+   ===== 
+   space = screen() #paired
    =====      
    alex = Turtle()  
    =====  
@@ -93,6 +95,8 @@ As we have seen before turtles can draw letters like a capital C as shown below.
    ella.left(150)
    =====
    ella.forward(100)
+   =====
+   ella.Forward(100) #paired
 
    
 The following example has 4 errors.  Can you fix the errors so that the code runs correctly to print a capital L?
@@ -121,7 +125,7 @@ The following example has 4 errors.  Can you fix the errors so that the code run
     alex.turn(90)           # turn left 90 degrees
     alex.forward(100)       # more forward by 100 units
     alex.left(90)           # turn left 90 degrees
-    alex.forward            # move forward by 75 units
+    alex.forward(75         # move forward by 75 units
     
 .. note::
    Case matters in Python so ``screen`` is not the same as ``Screen``. Also the open and close parentheses are required after every function and procedure call, even if it doesn't take any input.  

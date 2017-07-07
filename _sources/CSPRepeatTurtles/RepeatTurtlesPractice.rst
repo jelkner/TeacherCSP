@@ -26,10 +26,14 @@ This section provides more practice using the **stamp** procedure.
    =====
    space = Screen()
    =====
+   space = screen() #paired
+   =====
    nick = Turtle()
    nick.shape("turtle")
    =====
    nick.penup()
+   =====
+   nick.penUp() #paired
    =====
    nick.goto(-150,-150)
    nick.left(45)
@@ -64,6 +68,9 @@ This section provides more practice using the **stamp** procedure.
    nick = Turtle()
    nick.shape("turtle")
    =====
+   nick = Turtle()
+   nick.shape("Turtle") #paired
+   =====
    nick.penup()
    =====
    nick.goto(-150,-150)
@@ -84,6 +91,8 @@ This section provides more practice using the **stamp** procedure.
    for count in range(4):
    =====
        for num in range(3):
+   =====
+       for num in range(2): #paired
    =====
            nick.stamp()
            nick.forward(30)

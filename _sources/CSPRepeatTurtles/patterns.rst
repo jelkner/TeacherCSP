@@ -87,7 +87,7 @@ You can use the coloring in the picture below to help you figure out the correct
    =====
    for repeats in range(20):
    =====
-   for repeats in range(20) #paired
+   for repeats in range(20) #distractor
    =====
        mateo.color("red")
        mateo.forward(10)
@@ -95,11 +95,11 @@ You can use the coloring in the picture below to help you figure out the correct
    =====
        mateo.color("red")
        mateo.forward(10)
-       mateo.left(12) #paired 
+       mateo.left(12) #distractor 
    =====
        for sides in range(3):
    =====
-       for sides in range(4): #paired
+       for sides in range(4): #distractor
    =====
            mateo.color("blue")
            mateo.forward(50) 
@@ -111,7 +111,7 @@ You can use the coloring in the picture below to help you figure out the correct
 .. parsonsprob:: 10_3_2_Turtle_Spiro_Blue_Red
    :adaptive:
 
-   There is a way of arranging the statements below such that this image is created. <img src="../_static/RedTrianglesBlueCircle.png" width="200" align="left" hspace="10" vspace="5" /> The turtle will draw many triangles. Move the pieces of the program from the left into the space on the right.  Indent lines as needed.
+   There is a way of arranging the statements below such that this image is created. <img src="../_static/RedTrianglesBlueCircle.png" width="200" align="left" hspace="10" vspace="5" /> The turtle will draw many triangles. Move the needed pieces of the program from the left into the space on the right.  Indent lines as needed.
    -----
    from turtle import *
    from sys import *    
@@ -123,7 +123,7 @@ You can use the coloring in the picture below to help you figure out the correct
    =====
    for repeats in range(20):
    =====
-   for repeats in range(20) #paired
+   for repeats in range(20) #distractor
    =====
        mateo.color("blue")
        mateo.forward(10)
@@ -132,7 +132,7 @@ You can use the coloring in the picture below to help you figure out the correct
    =====
        for sides in range(3):
    =====
-       for sides in range(3) #paired
+       for sides in range(3) #distractor
    =====
            mateo.color("red")
            mateo.forward(50) 
@@ -140,7 +140,7 @@ You can use the coloring in the picture below to help you figure out the correct
    =====
            mateo.color("red")
            mateo.forward(50) 
-           mateo.right(60) #paired
+           mateo.right(60) #distractor
            
 The following example has 4 errors.  Can you fix the errors so that the code compiles and runs?
     

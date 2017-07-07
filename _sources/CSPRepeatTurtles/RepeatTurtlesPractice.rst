@@ -19,26 +19,26 @@ This section provides more practice using the **stamp** procedure.
 
 .. parsonsprob:: 10_5_1_turtle-x
 
-   The following program uses the stamp method to create an X of turtle shapes as shown to the left, <img src="../_static/TurtleStampX.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen. Stamp the blue turtles before you stamp the green ones.   <br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are incorrectly indented.</p>
+   The following program uses the stamp method to create an X of turtle shapes as shown to the left, <img src="../_static/TurtleStampX.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen. Stamp the blue turtles before you stamp the green ones.   <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----
    from turtle import *
    =====
    space = Screen()
    =====
-   space = screen() #paired
+   space = screen() #distractor
    =====
    nick = Turtle()
    nick.shape("turtle")
    =====
    nick.penup()
    =====
-   nick.penUp() #paired
+   nick.penUp() #distractor
    =====
    nick.goto(-150,-150)
    nick.left(45)
    =====
    nick.goto(-150,-150)
-   nick.left(90) #paired
+   nick.left(90) #distractor
    =====
    nick.color("blue")            
    for num in range(15):  
@@ -49,7 +49,7 @@ This section provides more practice using the **stamp** procedure.
    nick.left(90)
    =====
    nick.goto(150,-150)
-   nick.left(45) #paired
+   nick.left(45) #distractor
    =====
    nick.color("green")
    for num in range(14):  
@@ -60,7 +60,7 @@ This section provides more practice using the **stamp** procedure.
 .. parsonsprob:: 10_5_2_turtle-squares
    :adaptive:
 
-   The following program uses the stamp method to create two squares of turtle shapes as shown to the left, <img src="../_static/TurtleStampDoubleSquare.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen.  Draw the blue square before you draw the green one.<br /><br /><p>Drag the blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are incorrectly indented.</p>
+   The following program uses the stamp method to create two squares of turtle shapes as shown to the left, <img src="../_static/TurtleStampDoubleSquare.png" width="150" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up, create the turtle, set the shape to "turtle", and pick up the pen.  Draw the blue square before you draw the green one.<br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order with the correct indention.  Click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----
    from turtle import *
    space = Screen()
@@ -69,7 +69,7 @@ This section provides more practice using the **stamp** procedure.
    nick.shape("turtle")
    =====
    nick = Turtle()
-   nick.shape("Turtle") #paired
+   nick.shape("Turtle") #distractor
    =====
    nick.penup()
    =====
@@ -77,7 +77,7 @@ This section provides more practice using the **stamp** procedure.
    nick.left(90)
    =====
    nick.goto(-150,-150)
-   nick.left(45) #paired
+   nick.left(45) #distractor
    =====
    nick.color("blue")            
    for count in range(4):
@@ -92,14 +92,14 @@ This section provides more practice using the **stamp** procedure.
    =====
        for num in range(3):
    =====
-       for num in range(2): #paired
+       for num in range(2): #distractor
    =====
            nick.stamp()
            nick.forward(30)
    =====
        nick.right(90)
    =====
-       nick.left(90) #paired
+       nick.left(90) #distractor
 
 Use the area below to try to draw a pattern using a ``for`` loop and the ``stamp`` procedure.
 

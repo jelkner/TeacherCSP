@@ -132,7 +132,7 @@ The program below uses the ``goto(x,y)`` to move to the top left corner before d
 
 .. parsonsprob:: 5_3_2_DrawA
 
-   The following program uses a turtle to draw a capital A as shown in the picture to the left of this text, <img src="../_static/DrawABig.png" width="200" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  It should draw the lines in the order shown by the numbers in the picture on the left. <br /><br /><p>>Drag the needed blocks of statements from the left column to the right column and put them in the right order. There may be additional blocks that are not needed in a correct solution. Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
+   The following program uses a turtle to draw a capital A as shown in the picture to the left of this text, <img src="../_static/DrawABig.png" width="200" align="left" hspace="10" vspace="5" /> but the lines are mixed up.  The program should do all necessary set-up: import the turtle module, get the space to draw on, and create the turtle.  It should draw the lines in the order shown by the numbers in the picture on the left. <br /><br /><p>Drag the needed blocks of statements from the left column to the right column and put them in the right order. There may be additional blocks that are not needed in a correct solution. Then click on <i>Check Me</i> to see if you are right. You will be told if any of the lines are in the wrong order or are the wrong blocks.</p>
    -----
    from turtle import *
    =====

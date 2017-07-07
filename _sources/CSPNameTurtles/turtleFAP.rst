@@ -114,19 +114,19 @@ The program below uses the ``goto(x,y)`` to move to the top left corner before d
    anu.forward(50)
    =====
    anu.left(90)
-   anu.forward(50) #paired
+   anu.forward(50) #distractor
    =====
    anu.penup()
    =====
-   anu.penUp() #paired
+   anu.penUp() #distractor
    =====
    anu.goto(0,60)
    =====
-   anu.goTo(0,60) #paired
+   anu.goTo(0,60) #distractor
    =====
    anu.pendown()
    =====
-   anu.penDown() #paired
+   anu.penDown() #distractor
    =====
    anu.forward(50)
 
@@ -138,17 +138,17 @@ The program below uses the ``goto(x,y)`` to move to the top left corner before d
    =====
    space = Screen()
    =====
-   space = screen() #paired
+   space = screen() #distractor
    =====
    ella = Turtle()
    =====
-   ella = Turtle #paired
+   ella = Turtle #distractor
    =====
    ella.left(60)
    ella.forward(100)
    =====
    ella.left(60)
-   ella.forward() #paired
+   ella.forward() #distractor
    =====
    ella.right(120)
    ella.forward(100)
@@ -161,7 +161,7 @@ The program below uses the ``goto(x,y)`` to move to the top left corner before d
    ella.forward(40)
    =====
    ella.Left(60)
-   ella.forward(40) #paired
+   ella.forward(40) #distractor
     
 You can change the color and pensize that you draw with as well.
 

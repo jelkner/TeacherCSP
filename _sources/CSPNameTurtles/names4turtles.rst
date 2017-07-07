@@ -27,8 +27,6 @@ Assign a Name to a Turtle
 - Ask turtle objects to perform actions.
 - Introduce the concept of a procedure, which does some action, but doesn't return a value.
 - Introduce some turtle procedures like ``color``, ``penup``, ``pendown``, and ``pensize``.
-- Demonstrate that you can create more than one object of a type.
-- Demonstrate that using the right object at the right time, in order, is critical to success.
 
 ..	index::
 	single: objects

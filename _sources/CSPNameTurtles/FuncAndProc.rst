@@ -27,14 +27,12 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    Some Python books don't make a distinction between procedures and functions and will call both of these functions.  In this book we are using **function** only for named code that returns a value and **procedure** for named code that doesn't return a value.   
    
 
-   
 .. fillintheblank:: 5_2_1_LetterC_fill
 
-    .. blank:: 5_2_1_LetterC
-        :correct: ^c$|^C$
-        :feedback1: ('.*','Try to follow the directions as if you are the turtle')
+   What letter (like A and D) will the program below draw in block style when you click on the Run button?
 
-        What letter (like A and D) will the program below draw in block style when you click on the Run button?
+   -    :^c$|^C$: Correct!
+        :.*: Try to follow the directions as if you are the turtle
 
 .. activecode:: Turtle_C
     :nocodelens:

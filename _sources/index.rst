@@ -20,108 +20,27 @@ CS Principles: Big Ideas in Programming
 
 .. Sources can also be included from subfolders of this directory.
    (e.g. "DataStructures/queues.rst").
-
+   
 SECTION 1: COMPUTER ABILITIES
 :::::::::::::::::::::::::::::::
 
 .. toctree::
    :maxdepth: 3
+   
+   CSPrinTeasers/toctree.rst
+   CSPTuring/toctree.rst
 
-Chapter 1: What is this Book About?
-::::::::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-
-   CSPrinTeasers/teacherBook.rst
-   CSPrinTeasers/pretest.rst
-   CSPrinTeasers/computeNumbers.rst
-   CSPrinTeasers/computeWords.rst
-   CSPrinTeasers/computeTurtles.rst
-   CSPrinTeasers/computeImages.rst
-   CSPrinTeasers/standards.rst
-   CSPrinTeasers/ch1_summary.rst
-
-Chapter 2: What can Computers Do?
-::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-
-   CSPTuring/whatIsComputer.rst
-   CSPTuring/turingMachines.rst
-   CSPTuring/abilities.rst
-   CSPTuring/ch2_summary.rst
-   CSPTuring/exam1a2.rst
 
 SECTION 2: NAMING
 ::::::::::::::::::::::::::::::::::::::::::::
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
-Chapter 3: Names for Numbers
-::::::::::::::::::::::::::::::::::
+   CSPNameNumbers/toctree.rst
+   CSPNameStrings/toctree.rst
+   CSPNameTurtles/toctree.rst
 
-.. toctree::
-   :maxdepth: 2
-
-   CSPNameNumbers/assignName.rst
-   CSPNameNumbers/noteLimitsBoxAnalogy.rst
-   CSPNameNumbers/expression.rst
-   CSPNameNumbers/expressionTable.rst
-   CSPNameNumbers/orderOfOperations.rst
-   CSPNameNumbers/driving.rst
-   CSPNameNumbers/noteEitherSideOfEquals.rst
-   CSPNameNumbers/ketchup.rst
-   CSPNameNumbers/walkAssign.rst
-   CSPNameNumbers/misconceptions.rst
-   CSPNameNumbers/invoice.rst
-   CSPNameNumbers/whyVideo.rst
-   CSPNameNumbers/ch3_summary.rst
-   CSPNameNumbers/ch3_exercises.rst
-
-Chapter 4: Names for Strings
-::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-
-   CSPNameStrings/assignNameStr.rst
-   CSPNameStrings/strObjects.rst
-   CSPNameStrings/immutable.rst
-   CSPNameStrings/madlib.rst
-   CSPNameStrings/whyAudio.rst
-   CSPNameStrings/ch4_summary.rst
-   CSPNameStrings/ch4_exercises.rst
-   CSPNameStrings/exam3a4.rst
-
-Chapter 5: Names for Turtles
-::::::::::::::::::::::::::::::::::
-
-.. toctree::
-   :maxdepth: 2
-
-   CSPNameTurtles/names4turtles.rst
-   CSPNameTurtles/FuncAndProc.rst
-   CSPNameTurtles/TurtlePractice.rst
-   CSPNameTurtles/turtleFAP.rst
-   
-   CSPRepeatNumbers/repeatSteps.rst
-   CSPRepeatNumbers/repeatNums.rst
-   CSPRepeatNumbers/list.rst
-   
-   CSPRepeatTurtles/repeatturtles.rst
-   CSPRepeatTurtles/turtleGeom.rst
-   CSPRepeatTurtles/patterns.rst
-   CSPRepeatTurtles/stamp.rst
-   CSPRepeatTurtles/RepeatTurtlesPractice.rst
-
-   CSPExamPost/examPost.rst
-
-
-
-   
 Indices
 ::::::::::::::::::
 

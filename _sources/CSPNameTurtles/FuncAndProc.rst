@@ -30,11 +30,11 @@ We have seen string **functions** like ``lower()`` which returns a new string wi
    
 .. fillintheblank:: 5_2_1_LetterC_fill
 
-    .. blank:: 5_2_1_LetterC
-        :correct: ^c$|^C$
-        :feedback1: ('.*','Try to follow the directions as if you are the turtle')
+   What letter (like A and D) will the program below draw in block style when you click on the Run button?
 
-        What letter (like A and D) will the program below draw in block style when you click on the Run button?
+   -    :^c$|^C$: Correct!
+        :.*: Try to follow the directions as if you are the turtle
+
 
 .. activecode:: Turtle_C
     :nocodelens:

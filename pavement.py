@@ -12,15 +12,20 @@ sys.path.append(os.getcwd())
 
 home_dir = os.getcwd()
 
-master_url = None
+master_url = 'https://runestone.academy'
 if master_url is None:
-    if gethostname() in  ['web407.webfaction.com', 'rsbuilder']:
+    if 'RSHOST' in os.environ:
+        master_url = environ['RSHOST']
+    elif gethostname() in  ['web608.webfaction.com']:
         master_url = 'http://interactivepython.org'
+    elif gethostname() == 'runestone-deploy':
+        master_url = 'https://runestone.academy'
     else:
         master_url = 'http://127.0.0.1:8000'
 
 master_app = 'runestone'
 serving_dir = "./build/TeacherCSP"
+dest = '../../static'
 
 options(
     sphinx = Bunch(docroot=".",),

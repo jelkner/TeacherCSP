@@ -23,7 +23,7 @@ if master_url is None:
     else:
         master_url = 'http://127.0.0.1:8000'
 
-master_app = 'runestone'
+master_app = 'teachercsp_remixed'
 serving_dir = "./build/TeacherCSP"
 dest = '../../static'
 
@@ -37,7 +37,7 @@ options(
         confdir=".",
         project_name = "TeacherCSP",
         template_args={'course_id': 'TeacherCSP',
-                       'login_required':'true',
+                       'login_required':'false',
                        'appname':master_app,
                        'loglevel': 10,
                        'course_url':master_url,
